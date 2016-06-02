@@ -5,7 +5,7 @@ FROM iron/ruby
 MAINTAINER Amy <ayc.yang@gmail.com>
 
 # Install some additional ruby supporting packages
-RUN apk --update add ruby--rdoc ruby-irb
+RUN apk --update add ruby-rdoc ruby-irb
 
 # Install the bundler ruby gem dependency manager
 RUN gem install bundler
